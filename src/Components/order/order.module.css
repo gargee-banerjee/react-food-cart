@@ -1,0 +1,56 @@
+.formContainer {
+  margin: 10px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: white */
+}
+
+.formContainer input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.formContainer > * {
+  margin: 2px 10px;
+}
+
+.formCustomerDetails {
+  display: flex;
+  flex-direction: column;
+}
+.formCustomerDetails > * {
+  margin: 5px 0;
+}
+
+.formAddressConrainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+.formStreet {
+  grid-column: 1/-1;
+}
+
+.formButtons {
+  margin-top: 20px;
+
+}
+.formButtons > *{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.formButtons > *:hover{ 
+    background-color:   #ca763a;
+    color:aliceblue;
+
+}
+
+.fieldError{
+  border: 1px solid red !important;
+}

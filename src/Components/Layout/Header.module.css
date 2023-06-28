@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e8cdb2;
+  padding: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+.header p {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #9a5c1e;
+}
+
+.displayImageContainer{
+  height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.displayImageContainer img{
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+  /* transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem); */
+}

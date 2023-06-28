@@ -1,0 +1,30 @@
+
+
+.foodAddCart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .foodAddCart .addToCartButton {
+    width: 100px;
+    height: 35px;
+    margin-top: 8px;
+    background-color: #9a5c1e;
+    border-radius: 20px;
+    color: beige;
+  }
+  
+  .amountDisplayCon {
+    display: flex;
+  }
+  .titleAmount {
+    color: #9a5c1e;
+    margin-right: 15px;
+  }
+  .addToCartCount {
+    width: 35px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    text-align: center;
+  }

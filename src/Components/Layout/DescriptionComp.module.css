@@ -1,0 +1,16 @@
+.descriptionContainer{
+    background-color: #b29271ed;
+    color: aliceblue;
+    width: 40vw;
+    height: 200px;
+    margin: auto;
+    margin-top: -10rem;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.descriptionContainer .title{
+    font-size: 1.8em;
+    font-weight: bolder;
+}

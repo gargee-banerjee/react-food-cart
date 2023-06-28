@@ -1,0 +1,28 @@
+.foodItemContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  margin: auto;
+  padding: 12px 15px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #9a5c1e;
+}
+
+.foodDesContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.foodDesContainer > * {
+  margin-top: 5px;
+}
+
+.foodDesContainer .foodName {
+  font-weight: bold;
+}
+
+.foodDesContainer .foodPrice {
+  color: #9a5c1e;
+  font-weight: bold;
+}
